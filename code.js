@@ -6,7 +6,7 @@ function binarySearch(list, element) {
     //Loop while searching
     while (list[index] != element) {
         //Check if item isn't in list
-        if (low + 1 == high) {
+        if (low + 1 >= high) {
             return -1;
         }
         //Element is lower
